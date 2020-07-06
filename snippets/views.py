@@ -15,7 +15,8 @@ from snippets.serializers import UserSerializer
 
 class SnippetViewSet(viewsets.ModelViewSet):
     """
-    This viewset automatically provides `list`, `create`, `retrieve`, `update` and `destroy` actions.
+    This viewset automatically provides
+    `list`, `create`, `retrieve`, `update` and `destroy` actions.
 
     Additionally we also provide an extra `highlight` action.
     """
